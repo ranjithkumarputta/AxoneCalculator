@@ -5,10 +5,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class AdditionTest3 {
+    Addition a = new Addition();
 
     @Test
     public void add(){
-        Addition a = new Addition();
         int expectedValue = a.addition(30,40);
         Assert.assertEquals(70,expectedValue);
     }
