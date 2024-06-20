@@ -10,6 +10,6 @@ public class AdditionTest3 {
     @Test
     public void add(){
         int expectedValue = a.addition(30,40);
-        Assert.assertEquals(70,expectedValue);
+        Assert.assertEquals(701234,expectedValue);
     }
 }
